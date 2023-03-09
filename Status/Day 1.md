@@ -7,22 +7,19 @@
 
 ---
 
-### Hints:
 
-> **_Consider use range(#begin, #end) method._**
-
----
-
-**Main author's Solution: Python 2**
+### Hints:v
+vvv
+c
 
 ```python
-l=[]
-for i in range(2000, 3201):
-    if (i%7==0) and (i%5!=0):
-        l.append(str(i))
 
-print ','.join(l)
-```
+def numbers_divisible_by_7():
+    number = []
+    for i in range(2000, 3201):
+        if (i%7==0) and (i%5!=0):
+            number.append(str(i))
+    return number 
 
 ---
 
@@ -188,7 +185,7 @@ print(ans)
 ---
 ```python
 '''Solution by: minnielahoti
-   Corrected by: TheNobleKnight 
+   Corrected by: TheNobleKnight
 '''
 
 try:
